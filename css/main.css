@@ -343,3 +343,13 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+    .theme-container {
+        bottom: auto;
+        top: calc(50% - 35px); /* La mitad de la altura del theme-container */
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+}
+
