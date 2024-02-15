@@ -337,3 +337,7 @@ main {
     background-color: var(--type-fairy);
     color: var(--clr-black);
 }
+
+footer {
+    background-color: var(--clr-gray);
+}
